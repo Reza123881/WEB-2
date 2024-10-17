@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lkpd2</title>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+  margin: 0;
+  color: #2e2e2e; /* Default text color for better readability */
+}
+
+header {
+  background-color: #c7151e; /* brown*/
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 700px; /* Adjusted for dynamic content */
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 20px;
+  border-right: 3px rgb(12, 129, 49); /* sandybrown border for separation */
+}
+
+nav a {
+  color: #4a0adf; /* brown for links */
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+article {
+  float: left;
+  padding: 5px;
+  width: 70%;
+  background-color: #ffffff; /* White background for content */
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #c7151e; /* brown */
+  padding: 0.5%;
+  text-align: center;
+  color: white;
+  width: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid rgb(198, 21, 30); /* brown border */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #c7151e; /* brown header background */
+  color: white; /* White text in the header */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light grey for alternating rows */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White for alternating rows */
+}
+
+img {
+  display: block;
+  margin: 20px auto; /* Center the image and add vertical margin */
+  max-width: 100%; /* Make sure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    float: none;
+  }
+}
+    </style>
+</head>
+<body>
+  
+   <header>
+        <h2>HUT TNI INDONESIA</h2>
+    </header>
+    
+    <section>
+        <nav>
+            <ol>
+                <li><a href="https://tni.mil.id/pages-10-sejarah-tni.html#:~:text=TNI%20merupakan%20perkembangan%20organisasi%20yang,Tentara%20Republik%20Indonesia%20(TRI).">Sejarah TNI</a></li>
+                <li><a href="https://tni.mil.id/">Mabes TNI</a></li>
+                <li><a href="https://id.wikipedia.org/wiki/Pusat_Penerangan_Tentara_Nasional_Indonesia">Puspen TNI</a></li>
+                <li><a href="https://tni.mil.id/pages-2-peran-fungsi-dan-tugas.html">Peran Fungsi Tugas TNI</a></li>
+            </ol>
+        </nav>
+        <article>
+            <h1>TNI INDONESIA</h1>
+            <p>Tentara Nasional Indonesia adalah nama untuk angkatan bersenjata dari negara Indonesia. Pada awal dibentuk, lembaga ini bernama Tentara Keamanan Rakyat, lalu TKR dibubarkan dan kemudian berdirilah Tentara Republik Indonesia, dan berganti nama menjadi Angkatan Bersenjata Republik Indonesia</p>
+            
+            <img src="hut.jpeg" alt="Descriptive Alt Text" style="width:650px; height: 300px">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspek</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>visi</td>
+                        <td>“Terwujudnya TNI yang Profesional, Modern dan Tangguh untuk Mewujudkan Indonesia Maju yang Berdaulat, Mandiri, dan Berkepribadian, Berlandaskan Gotong-Royong”..</td>
+                    </tr>
+                    <tr>
+                        <td>misi</td>
+                        <td>Sebagai upaya untuk mewujudkan visi TNI tersebut, maka ditetapkan misi TNI sebagai berikut:
+
+1 Memelihara dan memantapkan profesionalisme TNI sebagai alat pertahanan negara;
+
+2 Meningkatkan kemampuan yang responsif dalam menghadapi perkembangan lingkungan strategis; 
+
+3 Memantapkan kemampuan TNI yang integratif serta bersinergi dengan kepolisian kementerian dan lembaga dan komponen bangsa lainnya;
+
+4 Mewujudkan percepatan modernisasi alutsista sesuai perkembangan ilmu pengetahuan dan teknologi; dan
+
+5 Mewujudkan TNI yang adaptif terhadap tuntunan tugas dan spektrum ancaman.
+
+ </td>
+                    </tr>
+                    <tr>
+                        <td>sejarah</td>
+                        <td>TNI merupakan perkembangan organisasi yang berawal dari Badan Keamanan Rakyat (BKR). Selanjutnya pada tanggal 5 Oktober 1945 menjadi Tentara Keamanan Rakyat (TKR), dan untuk memperbaiki susunan yang sesuai dengan dasar militer international, dirubah menjadi Tentara Republik Indonesia (TRI)..</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+    <footer style="background-color: #c7151e; color: white; padding: 5px 0; text-align: center;">
+  
+    <div style="margin-top: 10px;">
+      <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Privacy Zaeza</a> | 
+      <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Terms of Zaeza</a> | 
+      <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Contact Zaeza</a>
+    </div>
+    <div style="margin-top: 15px;">
+      <a href="https://facebook.com" target="_blank" style="margin: 0 30px;">
+        <img src="fb.png" alt="Facebook" style="width: 60px;">
+      </a>
+      <a href="https://instagram.com" target="_blank" style="margin: 0 30px;">
+        <img src="ig.png" alt="Instagram" style="width: 35px;">
+      </a>
+      <a href="https://twitter.com" target="_blank" style="margin: 0 30px;">
+        <img src="twiter.png" alt="Twitter" style="width: 50px;">
+      </a>
+      <div style="max-width: 1200px; margin: auto;">
+    <p style="font-size: 14px; margin: 0;">© 2024 HUT TNI - All Rights Reserved</p>
+    <p style="font-size: 14px; margin: 0;">Designed & Developed by <strong>Zaeza</strong></p>
+    </div>
+  </div>
+</footer>
+
